@@ -1,0 +1,8 @@
+{
+  "name": "git-book-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:s4na/git-book-sample.git",
+  "author": "s4na <appletea.umauma@gmail.com>",
+  "license": "MIT"
+}
