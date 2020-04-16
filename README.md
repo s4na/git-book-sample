@@ -27,11 +27,17 @@ git subtree push --prefix _book origin gh-pages
 
 ## 情報追加方法
 
+docs/xxx.md 作成（ここに追加しないとダメ）
+SUMMARY.md に追加（追加しないと表示されない）
+
 ```
 git push origin master
+git branch -D gh-pages 
+git push origin :gh-pages
+
 git checkout --orphan gh-pages
 git checkout master
-git subtree split --prefix _book origin/gh-pages
+git subtree push --prefix _book origin gh-pages
 ```
 
 ## わからないこと
@@ -52,3 +58,9 @@ git subtree split --prefix _book origin/gh-pages
 ## Web site URL
 
 https://s4na.github.io/git-book-sample/
+
+
+
+https://docs.gitbook.com/
+
+https://qiita.com/arm_band/items/ec5bb0a0d1dec1e6da79
