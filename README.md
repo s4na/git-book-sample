@@ -29,7 +29,14 @@ git subtree push --prefix _book origin gh-pages
 
 ## わからないこと
 
-`$ git subtree push --prefix` とは？
+### `$ git subtree push --prefix` とは？
+
+### git subtreeでのforceの仕方
+
+`git subtree split --prefix _book master`
+
+[git subtreeで強制的にpushする](https://blog.tk84.net/yKFr/)
+
 
 ## 参考
 
