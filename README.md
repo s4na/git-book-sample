@@ -50,7 +50,6 @@ git subtree push --prefix _book origin gh-pages
 
 [git subtreeで強制的にpushする](https://blog.tk84.net/yKFr/)
 
-
 ## 参考
 
 [GitBookでドキュメントを作ってGithub Pagesで公開する方法 - Casual Developers Note](https://casualdevelopers.com/tech-tips/how-to-publish-gitbook-documents-with-github-pages/)
