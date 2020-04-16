@@ -27,6 +27,13 @@ git subtree push --prefix _book origin gh-pages
 
 ## 情報追加方法
 
+```
+git push origin master
+git checkout --orphan gh-pages
+git checkout master
+git subtree split --prefix _book origin gh-pages
+```
+
 ## わからないこと
 
 ### `$ git subtree push --prefix` とは？
