@@ -54,12 +54,13 @@ git subtree push --prefix _book origin gh-pages
 
 [GitBookでドキュメントを作ってGithub Pagesで公開する方法 - Casual Developers Note](https://casualdevelopers.com/tech-tips/how-to-publish-gitbook-documents-with-github-pages/)
 
-## Web site URL
-
-https://s4na.github.io/git-book-sample/
-
-
 
 https://docs.gitbook.com/
 
 https://qiita.com/arm_band/items/ec5bb0a0d1dec1e6da79
+
+
+## Web site URL
+
+https://s4na.github.io/git-book-sample/index.html
+
